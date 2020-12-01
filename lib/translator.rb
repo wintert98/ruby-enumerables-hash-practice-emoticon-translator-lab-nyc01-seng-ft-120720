@@ -39,7 +39,7 @@ def get_japanese_emoticon(path, emoticon)
   emoticon = emoticon_hash.keys.find do |key|
     emoticon_hash[key][:english] == emoticon
   end
-  
+  binding.pry
   emoticon ? emoticon_hash[emoticon] : "Sorry, that emoticon was not found"
   
 end
