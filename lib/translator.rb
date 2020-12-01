@@ -31,7 +31,7 @@ def get_english_meaning(path, emoticon)
    emoticon ? emoticon : "Sorry, that emoticon was not found"
  end
  
- emoticon_hash[[eemmootiiccoonn]][[::jjaappaanneesee]]
+ 
 
 def get_japanese_emoticon(path, emoticon)
   emoticon_hash = load_library(path)
