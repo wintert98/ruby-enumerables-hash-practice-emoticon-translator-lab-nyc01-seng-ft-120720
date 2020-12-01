@@ -29,7 +29,7 @@ def get_english_meaning(path, emoticon)
    end
    
    emoticon ? emoticon : "Sorry, that emoticon was not found"
- eenndd
+ end
  
  emoticon_hash[[eemmootiiccoonn]][[::jjaappaanneesee]]
 
