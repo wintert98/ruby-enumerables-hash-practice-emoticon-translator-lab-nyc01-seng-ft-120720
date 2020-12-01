@@ -36,7 +36,7 @@ def get_english_meaning(path, emoticon)
 def get_japanese_emoticon(path, emoticon)
   emoticon_hash = load_library(path)
   emoticon = emoticon_hash.keys.find do |key|
-    emoticon_hash[emoticon][:japanese] == emoticon
+    emoticon_hash[emoticon][:english] == emoticon
   end
   #binding.pry
   emoticon ? emoticon_hash[emoticon] : "Sorry, that emoticon was not found"
